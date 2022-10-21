@@ -7,15 +7,11 @@ from flask import Flask, flash, redirect, render_template, request, session, jso
 import json
 
 app = Flask(__name__)  
-
-# @app.route("/")
-# def home():
-#   return render_template("h.html")  
-
+ 
 
 @app.route("/")
 def experiment(): 
-  return render_template("index2.html")     
+  return render_template("home.html")     
 
 
 if __name__=='__main__':
